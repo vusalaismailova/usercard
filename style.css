@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 300px;
+    height: 400px;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: rgb(94, 108, 108);
+    position: relative;
+    border-radius: 15px;
+}
+.profile {
+    width: 150px;
+    height: 150px;
+    border: 5px solid deeppink;
+    background-color:whitesmoke;
+    margin-left: 23%;
+    position: absolute;
+    top: -50px;
+    box-shadow: 5px 5px 3px black;
+    border-radius: 50%;
+    
+}
+.profile img{
+width: 130px;
+height: 130px;
+border-radius: 50%;
+
+}
+.container{
+    margin-left: 5%;
+}
+.middle{
+   position: absolute;
+   margin-top: 15px;
+   top: 45px;
+   
+   
+}
+.footer{
+    position: absolute;
+    bottom:0;
+}
+.middle .mid{
+   
+    padding-top: 50px;
+    
+
+}
+.middle .mid h1{
+    margin-left: 50px;
+    color: deeppink;
+}
+.middle .mid a{
+    margin-left: 50px;
+    color: white;
+}
+.middle .mid p{
+    margin-left: 70px;
+    color: white;
+}
+.middle .midd{
+    padding: 25px;
+    margin-left: 30px;
+    position: absolute;
+    
+}
+.middle .midd i{
+    margin-left: 15px;
+    font-size: 25px;
+    background-color: white;
+    color: deeppink;
+    border-radius: 25%;
+   
+}
+.footer{
+    position: absolute;
+    width: 300px;
+    background-color: deeppink;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px
+}
+.footer span{
+    padding: 30px;
+    color: white;
+  
+}
+   
+    
